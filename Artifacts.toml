@@ -1,0 +1,51 @@
+[[MuJoCo]]
+arch = "aarch64"
+git-tree-sha1 = "06e1284416476324972b7dac306f90436d2e0be4"
+os = "macos"
+
+    [[MuJoCo.download]]
+    sha256 = "f7d5b0d87d0035172dab25bf59dc04cc30caefc5d22588d8e92ea8576244df88"
+    url = "https://github.com/JuliaBinaryWrappers/MuJoCo_jll.jl/releases/download/MuJoCo-v2.3.7+0/MuJoCo.v2.3.7.aarch64-apple-darwin.tar.gz"
+[[MuJoCo]]
+arch = "aarch64"
+git-tree-sha1 = "dab7f6180ebeee76667f04fddc5830629c44cd04"
+libc = "glibc"
+os = "linux"
+
+    [[MuJoCo.download]]
+    sha256 = "c7b0a07b313d331a434f0d995af994ab92bb53417df380c5593bde925efac2f2"
+    url = "https://github.com/JuliaBinaryWrappers/MuJoCo_jll.jl/releases/download/MuJoCo-v2.3.7+0/MuJoCo.v2.3.7.aarch64-linux-gnu.tar.gz"
+[[MuJoCo]]
+arch = "powerpc64le"
+git-tree-sha1 = "046dd160574caffb94a8adf55b003c6e977eec53"
+libc = "glibc"
+os = "linux"
+
+    [[MuJoCo.download]]
+    sha256 = "7909e951a1eed629d5ee2e503f6e482f62dd53ca4d8a2b6edc36c3bcebfa1b7b"
+    url = "https://github.com/JuliaBinaryWrappers/MuJoCo_jll.jl/releases/download/MuJoCo-v2.3.7+0/MuJoCo.v2.3.7.powerpc64le-linux-gnu.tar.gz"
+[[MuJoCo]]
+arch = "x86_64"
+git-tree-sha1 = "8e0451c059af2f7cb6f791c585b903a988e0e02a"
+os = "macos"
+
+    [[MuJoCo.download]]
+    sha256 = "f16c7acb7568140cee03f83ab11ff761e0be7c803affebb94100f08bb99c4935"
+    url = "https://github.com/JuliaBinaryWrappers/MuJoCo_jll.jl/releases/download/MuJoCo-v2.3.7+0/MuJoCo.v2.3.7.x86_64-apple-darwin.tar.gz"
+[[MuJoCo]]
+arch = "x86_64"
+git-tree-sha1 = "5389e2e8b4f1bc9175912d3cb96108472d7c0c5d"
+libc = "glibc"
+os = "linux"
+
+    [[MuJoCo.download]]
+    sha256 = "d7b6b25d159fadf4b7b97d5c622683ea197fabe5681bf1e8e97a95a9987a0450"
+    url = "https://github.com/JuliaBinaryWrappers/MuJoCo_jll.jl/releases/download/MuJoCo-v2.3.7+0/MuJoCo.v2.3.7.x86_64-linux-gnu.tar.gz"
+[[MuJoCo]]
+arch = "x86_64"
+git-tree-sha1 = "0ca69fa6636ec79e5c88b06175083dac64da81d2"
+os = "windows"
+
+    [[MuJoCo.download]]
+    sha256 = "3a64a72f5597b2a7f8a013a8bcc69beebb2b337dfaee80c90a5ae05f421b9268"
+    url = "https://github.com/JuliaBinaryWrappers/MuJoCo_jll.jl/releases/download/MuJoCo-v2.3.7+0/MuJoCo.v2.3.7.x86_64-w64-mingw32.tar.gz"
