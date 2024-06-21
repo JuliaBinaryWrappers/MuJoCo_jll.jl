@@ -2,12 +2,12 @@
 export libmujoco
 
 JLLWrappers.@generate_wrapper_header("MuJoCo")
-JLLWrappers.@declare_library_product(libmujoco, "@rpath/libmujoco.2.3.7.dylib")
+JLLWrappers.@declare_library_product(libmujoco, "@rpath/libmujoco.3.1.6.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libmujoco,
-        "lib/libmujoco.2.3.7.dylib",
+        "lib/libmujoco.3.1.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
